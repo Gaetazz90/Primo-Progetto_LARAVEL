@@ -1,0 +1,72 @@
+:root{
+    --ColorR: rgb(201, 24, 8);
+    --ColorW: rgb(235, 232, 220);
+    --ColorB: rgb(27, 25, 24);
+    --ColorG: rgb(82, 76, 74); 
+
+}
+
+
+.bg-nav{
+    background-color: var(--ColorR);
+    opacity: 0,2;
+}
+
+.navbar{
+        --bs-navbar-padding-x: 0; 
+        --bs-navbar-padding-y: 0.0;        
+}
+
+.bg-footer{
+    background-color: var(--ColorR);
+    opacity: 0,2;
+}
+
+h1{
+    color: var(--ColorR);
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+h3{
+    color: var(--ColorB);
+    text-align: center;
+    font-size: 40px;
+}
+
+.text-color-w{
+    color: var(--ColorW);
+}
+
+.bg-home{
+    background: linear-gradient(rgba(235, 232, 220, 0.3), rgba(235, 232, 220, 0.1)), url("/resources/media/sfondo-main.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-color{
+    background-color: var(--ColorR);
+}
+.btn-color:hover{
+    background-color: var(--ColorR);
+}
+
+.card-articles{
+    height: 450px;
+    width: 350px;
+    border: 2px solid black;
+}
+
+.img-card{
+    height: 50%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.img-showpage{
+    height: 500px;
+    width: 700px;
+    object-fit: cover;
+}
